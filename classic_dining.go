@@ -4,7 +4,7 @@ import "runtime"
 import "sync"
 import "fmt"
 
-const TOTAL int = 100
+const TOTAL int = 5
 
 func Dine(id int, l_fork, r_fork chan int) {
 	//Get the left fork
