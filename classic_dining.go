@@ -9,7 +9,6 @@ const TOTAL int = 5
 func Dine(id int, l_fork, r_fork chan int) {
 	//Get the left fork
 	left := <-l_fork
-	runtime.Gosched()
 	right := <-r_fork
 
 	fmt.Println(id, "is eating with forks", left, "and", right)
