@@ -1,4 +1,4 @@
 diningphilospher
 ================
 
-A take on the classic diningh philosphers problem
+A take on the classic dining philosphers problem
