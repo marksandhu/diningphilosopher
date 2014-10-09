@@ -4,8 +4,9 @@ import (
 	"fmt"
 
 	"./classic"
-
 	"./mutex"
+
+	"./buffet"
 )
 
 func main() {
@@ -16,4 +17,8 @@ func main() {
 	fmt.Println("Starting mutex")
 	mutex.Run()
 	fmt.Println("Finished mutex")
+
+	fmt.Println("Starting buffet")
+	buffet.Run()
+	fmt.Println("Finished buffet")
 }
