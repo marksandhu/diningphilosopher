@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"naina.localhost/learning/classic"
+	"./classic"
 
 	"./mutex"
 )
